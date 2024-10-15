@@ -8,22 +8,9 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 grid grid-cols-4 gap-4">
-        <li>Node.js</li>
-        <li>Next.js</li>
-        <li>PostgreSQL</li>
-        <li>Unity</li>
         <li>JavaScript</li>
-        <li>React</li>
-        <li>Godot</li>
-        <li>C#</li>
         <li>Python</li>
         <li>C++</li>
-        <li>OpenCV</li>
-        <li>Git</li>
-        <li>Google Cloud Platform</li>
-        <li>LLM</li>
-        <li>Deep Learning</li>
-        <li>VR/AR</li>
       </ul>
       
     ),
@@ -33,8 +20,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Master&apos;s Computer Science - University of Texas Rio Grande Valley</li>
-        <li>Bachelor&apos;s Computer Science - University of Texas Rio Grande Valley</li>
+        <li>High School Diploma&apos;s  - Business, Education, & Technology Academy</li>
+        <li>Currently Pursuing Bachelor&apos;s Computer Science - University of Texas Rio Grande Valley</li>
       </ul>
     ),
   },
@@ -66,13 +53,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Game Developer with interest of many topics, from Machine Learning, to Theory.
-            Different skills I have acquired over the years to consider myself a Jack of All Trades, and
-            master to game development since its quite fun.
-
-            My enthusiasm for technology drives me to continue to learn something new, and I have enjoyed
-            learning different topics and also teaching others to pursue certain topics if it finds their
-            intereset. 
+            I am a versatile computer science student with a small background in electrical engineering 
+            and a keen interest in topics like database management and information security. 
+            My passion for technology, coupled with my enthusiasm for learning, fuels my continuous pursuit of knowledge. 
+            I've enjoyed learning new concepts and sharing my expertise with others who are eager to delve into these fascinating fields.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
